@@ -90,6 +90,8 @@ public class Client extends javax.swing.JFrame {
         clientArea.setBackground(new java.awt.Color(255, 255, 255));
         clientArea.setColumns(20);
         clientArea.setRows(5);
+        clientArea.setDisabledTextColor(new java.awt.Color(0, 0, 0));
+        clientArea.setEnabled(false);
         jScrollPane2.setViewportView(clientArea);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

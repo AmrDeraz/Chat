@@ -87,6 +87,8 @@ public class Server extends javax.swing.JFrame {
         serArea.setBackground(new java.awt.Color(255, 255, 255));
         serArea.setColumns(20);
         serArea.setRows(5);
+        serArea.setDisabledTextColor(new java.awt.Color(0, 0, 0));
+        serArea.setEnabled(false);
         jScrollPane2.setViewportView(serArea);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
